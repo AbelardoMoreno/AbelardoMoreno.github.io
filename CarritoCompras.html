@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link href="img/favicon1.ico" rel="icon" type="image/x-icon" />
 		<meta charset="UTF-8">
 		<title>MundoJuegos</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
 	  	<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="styles.css">
 	</head>
+	
 	<body>
 		<header>
 			<div class="container">
@@ -26,7 +28,7 @@
 									    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad">Plataforma
 									    <span class="caret"></span></button>
 									    <ul class="dropdown-menu">
-									      <li><a href="#">PC</a></li>
+												<li><a href="#">PC</a></li>
 												<li><a href="#">Xbox</a></li>
 												<li><a href="#">Playstation</a></li>
 												<li><a href="#">Nintendo</a></li>
@@ -47,20 +49,17 @@
 								</div>
 
 								<div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
-				                    <button type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
+				                    <button style="background:white;" type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
 				                        <span class="glyphicon glyphicon-shopping-cart"></span><span>(4)</span>
 				                    </button>
 								</div>
 
 								<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center text-to-bold">
-									<a href="CarritoCompras.html" role="presentation">Mi carrito</a>
-								</div>
-								
+									<a href="CarritoCompras.html" role="presentation"><b>Mi carrito</b></a>
+								</div>							
 								<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
 								<a href="PerfilUsuario.html" class="thumbnail">
-					      		<img src="img/usuario1.png"style="width:35px;height:35px;">
-					     
-							   
+					      		<img src="img/usuario2.png"style="width:35px;height:26px;">   
 								</a>
 					  	</div>
 								
@@ -71,20 +70,25 @@
 				</div>
 			</div>
 
-			<div style="background:#94d3d4;" >
-				<ul class="nav nav-tabs nav-justified">
-			  		<li role="presentation" ><a color="inherit" href="index.html"><b>Inicio</b></a></li>
-			 		<li role="presentation"><a href="ListaProductos.html"><b>Juegos</b></a></li>
-			  		<li role="presentation"><a href="Hardware.html"><b>Hardware</b></a></li>
-			  		<li role="presentation"><a href="Videos.html"><b>Videos</b></a></li>
-			  		<li role="presentation"><a href="Noticias.html"><b>Noticias</b></a></li>
+			<div >	
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" style="height:auto; width:auto;"">
+						<img src="img/menu-mobile.png">
+					</button>
+				</div>
+				<div class="collapse navbar-collapse">
+				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">
+			  		<li role="presentation" ><a color="inherit" href="index.html"><b><font color="white">Inicio</font></b></a></li>
+			 		<li role="presentation"><a href="ListaProductos.html"><b><font color="white">Juegos</font></b></a></li>
+			  		<li role="presentation"><a href="Hardware.html"><b><font color="white">Hardware</font></b></a></li>
+			  		<li role="presentation"><a href="Videos.html"><b><font color="white">Videos</font></b></a></li>
+			  		<li role="presentation"><a href="Noticias.html"><b><font color="white">Noticias</font></b></a></li>
 				</ul>
+				</div>
 			</div>
 		</header>
 		
-		<div class="container" >
-		
-		
+		<div class="container" >			
 			<div class="main row">
 				<div class="hidden-xs hidden-sm hidden-md col-lg-2">
 					<ul class="nav nav-pills nav-stacked navbar-static-top" role="tablist" id="navbar-sidebar">
@@ -102,39 +106,39 @@
 					<div class="row">
 						<div class="container">
 							<div class="page-header">
-							  <h4>Carrito de Compras</h4>
+							  <h4><font size="5"><b>Carrito de Compras</b></font></h4>
 							</div>
 						</div>
 					</div>
 					
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail">
-					      		<img src="img/T1.jpg">    20$<button type="button" class="btn btn-default ">
+					    	<a href="#" class="thumbnail" style="background:#8ec536;border-color:#5c8023;">
+					      		<img src="img/T1.jpg"><font color="white"><center><b>20$</b></center></font><button type="button" class="btn btn-default">
+									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+											</button>
+					    	</a>
+					  	</div>
+						
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" >
+					    	<a href="#" class="thumbnail" style="background:#8ec536; border-color:#5c8023;">
+					      		<img src="img/T2.jpg"><font color="white"><center><b>20$</b></center></font><button type="button" class="btn btn-default">
 									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 											</button>
 					    	</a>
 					  	</div>
 						
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail">
-					      		<img src="img/T2.jpg">    20$<button type="button" class="btn btn-default ">
+					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
+					      		<img src="img/T3.jpg"><font color="white"><center><b>20$</b></center></font><button type="button" class="btn btn-default">
 									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 											</button>
 					    	</a>
 					  	</div>
 						
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail">
-					      		<img src="img/T3.jpg">    20$<button type="button" class="btn btn-default ">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail">
-					      		<img src="img/T4.jpg">    20$<button type="button" class="btn btn-default ">
+					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
+					      		<img src="img/T4.jpg"><font color="white"><center><b>20$</b></center></font><button type="button" class="btn btn-default">
 									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
 											</button>
 					    	</a>
@@ -142,7 +146,7 @@
 						
 						</div>	
 						
-					<h2 class="col-xs-12">Total : 80$</h2>
+					<h2 class="col-xs-12"><b>Total : 80$<b></h2>
 					<div class="bootn-i bootn ff-shadows">Comprar</div>
 					
 					<div class="row">
@@ -163,34 +167,34 @@
 					
 					<div class="row">
 						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="Producto.html" class="thumbnail">
+					    	<a href="Producto.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T5.jpg">
-					      		<div class="caption">
-							        <h3>60$</h3>
+					      		<div class="caption" style="background:#8ec536;">
+							        <h3><font color="white"><center><b>60$</b><center></font></h3>
 							   </div>
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoCivi.html" class="thumbnail">
+					    	<a href="ProductoCivi.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T6.jpg">
-					      		<div class="caption">
-							        <h3>20$</h3>
+					      		<div class="caption" style="background:#8ec536;">
+							        <h3><font color="white"><center><b>20$</b><center></font></h3>
 							   </div>
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoWitcher.html" class="thumbnail">
+					    	<a href="ProductoWitcher.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T7.jpg">
-					      		<div class="caption">
-							        <h3>20$</h3>
+					      		<div class="caption"style="background:#8ec536;">
+							        <h3><font color="white"><center><b>20$</b><center></font></h3>
 							   </div>
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoSnow.html" class="thumbnail">
+					    	<a href="ProductoSnow.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T8.jpg">
-					      		<div class="caption">
-							        <h3>60$</h3>
+					      		<div class="caption"style="background:#8ec536;">
+							        <h3><font color="white"><center><b>60$</b><center></font></h3>
 							   </div>
 					    	</a>
 					  	</div>
@@ -232,15 +236,15 @@
 					</div>
 					<div class="row">
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					      		<a href="https://twitter.com/"><img src="img/tw.png"></a>
+					      		<a href="https://www.facebook.com"><img src="img/fb.jpg"></a>
 					  	</div>
+						
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					      		<a href="https://twitter.com/"><img src="img/tw.png"></a>
+					  	</div>	
 						
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
 					      		<a href="https://instagram.com"><img src="img/ins.png"></a>
-					  	</div>
-						
-						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					      		<a href="https://www.facebook.com"><img src="img/fb.jpg"></a>
 					  	</div>
 				
 					  	
