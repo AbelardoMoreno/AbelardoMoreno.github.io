@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link href="img/favicon1.ico" rel="icon" type="image/x-icon" />
 		<meta charset="UTF-8">
 		<title>MundoJuegos</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +11,7 @@
 	  	<script src="js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="styles.css">
 	</head>
+	
 	<body>
 		<header>
 			<div class="container">
@@ -21,12 +23,12 @@
 					<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
 						<div class="contenedor">
 							<div class="row">
-									<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
+								<div class="col-xs-12 col-sm-5 col-md-4 col-lg-3">
 									<div class="dropdown">
 									    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad">Plataforma
 									    <span class="caret"></span></button>
 									    <ul class="dropdown-menu">
-									      <li><a href="#">PC</a></li>
+												<li><a href="#">PC</a></li>
 												<li><a href="#">Xbox</a></li>
 												<li><a href="#">Playstation</a></li>
 												<li><a href="#">Nintendo</a></li>
@@ -34,11 +36,11 @@
 									    </ul>
 									</div>
 								</div>
+
 								<div class="col-xs-12 col-sm-7 col-md-4 col-lg-4">
 									<div class="input-group">
 								    	<input type="text" class="form-control" placeholder="Buscar">
-								     	<span class="input-group-btn">
-										
+								     	<span class="input-group-btn">		
 								       		<button type="button" class="btn btn-default " onclick="location.href='ListaProductos.html'">
 									  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 											</button>
@@ -47,16 +49,16 @@
 								</div>
 
 								<div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
-				                    <button type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
+				                    <button style="background:white;" type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
 				                        <span class="glyphicon glyphicon-shopping-cart"></span><span>(0)</span>
 				                    </button>
 								</div>
 
 								<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center text-to-bold">
-									<a href="CarritoCompras.html" role="presentation">Mi carrito</a>
+									<a href="CarritoCompras.html" role="presentation"><b>Mi carrito</b></a>
 								</div>
-								<a href="PerfilUsuario.html"><div class="col-xs-12 hidden-sm col-md-2 col-lg-3 text-center text-to-bold bootn-i btn ff-shadows ">
-									<b>Iniciar sesión</b>
+								<a href="PerfilUsuario.html"><div class="col-xs-12 hidden-sm col-md-2 col-lg-3 text-center text-to-bold bootn-iii btn ff-shadows ">
+									<b><font color="white">Iniciar sesión</font></b>
 								</div></a>
 							</div>
 						</div>
@@ -65,14 +67,21 @@
 				</div>
 			</div>
 
-			<div style="background:#94d3d4;" >
-				<ul class="nav nav-tabs nav-justified">
-			  		<li role="presentation" ><a color="inherit" href="index.html"><b>Inicio</b></a></li>
-			 		<li role="presentation"><a href="ListaProductos.html"><b>Juegos</b></a></li>
-			  		<li role="presentation"><a href="Hardware.html"><b>Hardware</b></a></li>
-			  		<li role="presentation"><a href="Videos.html"><b>Videos</b></a></li>
-			  		<li role="presentation"><a href="Noticias.html"><b>Noticias</b></a></li>
+			<div >	
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" style="height:auto; width:auto;"">
+						<img src="img/menu-mobile.png">
+					</button>
+				</div>
+				<div class="collapse navbar-collapse">
+				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">
+			  		<li role="presentation" ><a color="inherit" href="index.html"><b><font color="white"><h8>Inicio</h8></font></b></a></li>
+			 		<li role="presentation"><a href="ListaProductos.html"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Hardware.html"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Videos.html"><b><font color="white"><h8>Videos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Noticias.html"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
 				</ul>
+				</div>
 			</div>
 		</header>
 		
@@ -208,73 +217,70 @@
 
 
 
-
-			<div class="row">
+			<br><br><br><br><br>
+		</div>
+		
+		<center><div class="row" style="background-color:#222324;">
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<div class="page-header">
-						<h4>MundoJuegos</h4>
+						<h4><b><font color="white">MundoJuegos</font></b></h4>
 					</div>
 					<ul>					
-						<li><a href="#"><p>Contáctanos</p></a></li>
-						<li><a href="#"><p>Como comprar</p></a></li>
+						<li><a href="#"><p><b><font color="white">Contáctanos</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Como comprar</font></b></p></a></li>
 						
 					</ul>
 					
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<div class="page-header">
-							<h4>Servicio al Cliente</h4>
+							<h4><b><font color="white">Servicio al Cliente</font></b></h4>
 					</div>
 					<ul>
-						<li><a href="#"><p>Preguntas Frecuentes</p></a></li>
-						<li><a href="#"><p>Políticas de devoluciones</p></a></li>
-						<li><a href="#"><p>Términos de uso</p></a></li>
+						<li><a href="#"><p><b><font color="white">Preguntas Frecuentes</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Políticas de devoluciones</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Términos de uso</font></b></p></a></li>
 					</ul>
 					
 				</div>
 
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<div class="page-header">
-						<h4>Redes Sociales</h4>
+						<h4><b><font color="white">Redes Sociales</font></b></h4>
 					</div>
 					<div class="row">
+					
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					      		<a href="https://twitter.com/"><img src="img/tw.png"></a>
+					      		<a href="https://www.facebook.com"><img src="img/fb.png" style="width:50px;height:50px;"></a>
 					  	</div>
 						
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					      		<a href="https://instagram.com"><img src="img/ins.png"></a>
-					  	</div>
+					      		<a href="https://twitter.com/"><img src="img/tw.png" style="width:50px;height:50px;"></a>
+					  	</div>	
 						
 						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-					      		<a href="https://www.facebook.com"><img src="img/fb.jpg"></a>
+					      		<a href="https://instagram.com"><img src="img/ins.png" style="width:50px;height:50px;"></a>
 					  	</div>
-				
-					  	
-					  	
+						
+				  	
 					</div>
 				</div>
 				
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<div class="page-header">
-						<h4>MundoJuegos</h4>
+						<h4><b><font color="white">Copyright</font></b></h4>
 					</div>
-					<ul>					
-						<li><a href="#"><p>Contáctanos</p></a></li>
-						<li><a href="#"><p>Como comprar</p></a></li>
-						
-					</ul>
 					
+					<small><b><font color="white">MundoJuegos.ga © Copyright 2016 Todos los derechos reservados.</font></b></small>
 				</div>
 
 				
-			</div>
-		</div>
+			</div></center>
 
 	
 
 		
-		</div>
+	
 
 	</body>
 </html>
