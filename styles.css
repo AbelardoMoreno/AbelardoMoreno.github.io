@@ -8,6 +8,11 @@ button {
      width: 100%;
      height: auto;
 }
+
+button2{
+     
+}
+
 .contenedor{
 
 	padding-top: 2em;
@@ -111,7 +116,7 @@ nav ul li:hover{
 }
 
 nav ul li a:hover{
-	color: #ffffff;
+	color: #8dbfc2;
 }
 
 .campo-texto-i {
@@ -183,4 +188,13 @@ nav ul li a:hover{
  
  textarea {
    resize: none;
+}
+
+ul.nav > li > a:hover {
+	background-color: #7cac30;
+	color: #FFFFFF;
+	border-style: none;
+}
+.mundo-logo{
+	height: inherit;
 }
