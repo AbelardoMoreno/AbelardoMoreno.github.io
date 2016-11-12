@@ -35,7 +35,7 @@ body{
 	background-color: lightgray;
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	
 	font-family: Montserrat, sans-serif;
 }
 
@@ -257,8 +257,11 @@ textarea {
 	opacity:1;    	
 }
 .omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-facebook:hover {background: #314b82;}
 .omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-twitter:hover {background: #0095cd;}
 .omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+.omb_login .omb_socialButtons .omb_btn-google:hover {background: #a8280d;}
 
 
 .omb_login .omb_loginOr {
@@ -293,7 +296,6 @@ textarea {
 .omb_login .omb_loginForm  .help-block {
     color: red;
 }
-
 	
 @media (min-width: 768px) {
     .omb_login .omb_forgotPwd {
