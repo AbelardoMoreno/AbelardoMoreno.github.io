@@ -38,10 +38,10 @@ body{
 
   background: lightgray; /* For browsers that do not support gradients */
 
-   background: -webkit-radial-gradient(circle, lightgray, lightgray, gray); /* Safari */
-  background: -o-radial-gradient(circle, lightgray, lightgray, gray); /* Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(circle, lightgray, lightgray, gray); /* Firefox 3.6 to 15 */
-  background: radial-gradient(circle, lightgray, lightgray, gray); /* Standard syntax */
+   background: -webkit-radial-gradient(circle, lightgray, gray, gray); /* Safari */
+  background: -o-radial-gradient(circle, lightgray, gray, gray); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, lightgray, gray, gray); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, lightgray, lightgray,  gray); /* Standard syntax */
 
 
 	margin: 0;
