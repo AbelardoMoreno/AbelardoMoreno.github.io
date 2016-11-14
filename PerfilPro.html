@@ -18,7 +18,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-						<a href="indexIN.html"><img src="img/logo.png" class="img-responsive logo" alt="Responsive image"></a>
+						<a href="index.html"><img src="img/logo.png" class="img-responsive logo" alt="Responsive image"></a>
 					</div>
 
 					<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
@@ -41,7 +41,7 @@
 								<div class="col-xs-12 col-sm-4 col-md-3 col-lg-4">
 									<div class="input-group">
 								    	<input type="text" class="form-control" placeholder="Buscar">
-								     	<span class="input-group-btn">
+								     	<span class="input-group-btn">		
 								       		<button type="button" class="btn btn-default " onclick="location.href='ListaProductos.html'">
 									  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 											</button>
@@ -50,26 +50,24 @@
 								</div>
 
 								<div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
-				                    <button style="background:white;" type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
-				                        <span class="glyphicon glyphicon-shopping-cart"></span><span>(4)</span>
+				                    <button style="background:white;" type="button" class="btn" id="shoppingCartHeader" onclick="location.href='Login.html'">
+				                        <span class="glyphicon glyphicon-shopping-cart"></span><span>(0)</span>
 				                    </button>
 								</div>
 
 								<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center text-to-bold">
-									<a href="CarritoCompras.html" role="presentation"><b>Mi carrito</b></a>
-								</div>		
-								
-								<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-										<div class="dropdown">
-										<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad"><b><font color="white"><img src="img/usuario2.png"style="width:35px;height:20px;"> </font></b>
-										<span class="caret"></span></button>
-										<ul class="dropdown-menu">
-											<li><a href="PerfilUsuario.html"><center>Mi Perfil</center></a></li>
-											<li><a href="index.html"><center>Salir</center></a></li>								
-										</ul>
-										</div>
+									<a href="Login.html" role="presentation"><b>Mi carrito</b></a>
 								</div>
-								
+									<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+									<div class="dropdown">
+									    <button class="btn bootn-iii dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad"><b><font color="white">Ingresar</font></b>
+									    <span class="caret"></span></button>
+									    <ul class="dropdown-menu">
+												<li><a href="Login.html"><center>Iniciar Sesion</center></a></li>
+												<li><a href="Registro.html"><center>Registrarse</center></a></li>								
+									    </ul>
+									</div>
+								</div>
 							</div>
 						</div>
 
@@ -86,22 +84,21 @@
 				<div class="collapse navbar-collapse" style="background:#8ec536;" >
 				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">
 			  		<li role="presentation" ><a color="inherit" href="index.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Inicio</h8></font></b></a></li>
-			 		<li role="presentation"><a href="ListaProductosIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
-			  		<li role="presentation"><a href="HardwareIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
-			  		<li role="presentation"><a href="VideosIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Videos</h8></font></b></a></li>
-			  		<li role="presentation"><a href="NoticiasIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
+			 		<li role="presentation"><a href="ListaProductos.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Hardware.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Videos.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Videos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="Noticias.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
 				</ul>
 				</div>
 			</div>
 		</header>
 		
-		<div class="container" >			
+		<div class="container" >
+		
+		
 			<div class="main row">
 				<div class="hidden-xs hidden-sm hidden-md col-lg-2" style="width:140px">
-					<ul class="nav nav-pills nav-stacked navbar-static-top" role="tablist" id="navbar-sidebar">
-				  		
-							
-					</ul>
+					
 				</div>
 			
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
@@ -113,104 +110,173 @@
 					<div class="row">
 						<div class="container">
 							<div class="page-header">
-							  <h4><font size="5"><b>Carrito de Compras</b></font></h4>
+							  <h4><small><a href="#"> </a></small></h4>
 							</div>
 						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail" style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T1.jpg"><font color="white"><center><b><h7>60$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3" >
-					    	<a href="#" class="thumbnail" style="background:#8ec536; border-color:#5c8023;">
-					      		<img src="img/T2.jpg"><font color="white"><center><b><h7>20$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T3.jpg"><font color="white"><center><b><h7>20$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T4.jpg"><font color="white"><center><b><h7>60$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						</div>	
-						
-					<h2 class="col-xs-12"><b>Total : 160$<b></h2>
-					<div class="bootn-i bootn ff-shadows"><h7>Comprar</h7></div>
-					
-					<div class="row">
-						<div class="container">
-							<div class="page-header">
-							  
-							</div>
-						</div>
-					</div>
-					
-						<div class="row">
-						<div class="container">
-							<div class="page-header"><h2> Recomendados<h2>
-							  
-							</div>
-						</div>
-					</div>
-					
-					<div class="row">
-						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoRocket.html" class="thumbnail"style="background:#5c8023;">
-					      		<img src="img/T5.jpg">
-					      		<div class="caption" style="background:#8ec536;">
-							        <h3><font color="white"><center><b><h7>60$</h7></b><center></font></h3>
-							   </div>
-					    	</a>
-					  	</div>
-					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoBattle.html" class="thumbnail"style="background:#5c8023;">
-					      		<img src="img/T6.jpg">
-					      		<div class="caption" style="background:#8ec536;">
-							        <h3><font color="white"><center><b><h7>20$</h7></b><center></font></h3>
-							   </div>
-					    	</a>
-					  	</div>
-					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoEstela.html" class="thumbnail"style="background:#5c8023;">
-					      		<img src="img/T7.jpg">
-					      		<div class="caption"style="background:#8ec536;">
-							        <h3><font color="white"><center><b><h7>20$</h7></b><center></font></h3>
-							   </div>
-					    	</a>
-					  	</div>
-					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-					    	<a href="ProductoWitcher.html" class="thumbnail"style="background:#5c8023;">
-					      		<img src="img/T8.jpg">
-					      		<div class="caption"style="background:#8ec536;">
-							        <h3><font color="white"><center><b><h7>1000$</h7></b><center></font></h3>
-							   </div>
-					    	</a>
-					  	</div>
 					</div>
 
-			
+					
+						<div class= "row">
+							<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+								<a href="PerfilPro.html" class="thumbnail" style="background:#5c8023; text-decoration: none">
+					      		<img src="img/pro.jpg" class="img-responsive">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>Pro</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+							
+							</div>
+							
+							<div class="hidden-xs col-sm-4 col-md-2 col-lg-3 panel panel-white post panel-shadow" style="border:1px solid black; border-radius: 15px; width:485px">
+								<b><br>
+					    	<p>This is ten percent luck, twenty percent skill</p>
+							<p>Fifteen percent concentrated power of will</p>
+							<p>Five percent pleasure, fifty percent pain</p>	
+							<p>And a hundred percent reason to remember the name!</p>
+					  	<br><br><br><br><br><br></b>
+							
+							</div>
+							
+							<div class="hidden-xs hidden-sm col-md-3 col-lg-3">
+								<center><b>Achievements</b></center><img src="img/icon.jpg" class="img-responsive"><img src="img/icon.jpg" class="img-responsive"><img src="img/icon.jpg" class="img-responsive">
+								
+							
+							</div>
+						
 					</div>
+					  				
+						
+						
+						<div class="row">
+						<div class="container">
+							<div class="page-header">
+							  <h4><small><a href="#"> </a></small></h4>
+							</div>
+						</div>
+					</div>
+						
+						
+						
+						
+						<div class="row">
+						<div class="container">
+							
+						</div>
+					</div>
+					
+					
+					<h4><b>Jugados Recientemente</b><small></small></h4>
+					<div class="row">
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+								<a href="ProductoDoom.html" class="thumbnail" style="background:#5c8023;">
+									<img src="img/T1.jpg">
+									
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+								<a href="ProductoBattle.html" class="thumbnail" style="background:#5c8023;">
+									<img src="img/T2.jpg">
+									
+								</a>
+							</div>
+						  <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+								<a href="ProductoEstela.html" class="thumbnail" style="background:#5c8023;">
+									<img src="img/T3.jpg">
+									
+								</a>
+							</div>
+							<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+								<a href="ProductoWitcher.html" class="thumbnail" style="background:#5c8023;">
+									<img src="img/T4.jpg">
+									
+								</a>
+							</div>
+						
+					</div>
+					
+					
+					<h4><b>Logros</b><small><a href="ListaProductos.html"> <b>[Ver todos]</b></a></small></h4>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T9.jpg">
+					      	
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T10.jpg">
+					      		
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T11.jpg">
+					      		
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T12.jpg">
+					      		
+					    	</a>
+					  	</div>
+					</div>
+					
+					<h4><b>Trofeos</b><small><a href="ListaProductos.html"> <b>[Ver todos]</b></a></small></h4>
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T13.jpg">
+					      		
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T14.jpg">
+					      		
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T15.jpg">
+					      		
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+					    	<a href="Videos.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/T16.jpg">
+					      		
+					    	</a>
+					  	</div>
+					</div>
+					
+
+
+
+					
+
+				
+				
+				
 			</div>
-		</div>
+					
+					
+					
+
+
+
+					
+
+				</div>
+			</div>
+
+
+
+
+	
+
+		
 <br><br><br><br><br>
 
 <center><div class="row" style="background-color:#222324;">
