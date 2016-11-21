@@ -65,8 +65,8 @@
 										<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad"><b><font color="white"><img src="img/usuario2.png"style="width:35px;height:20px;"> </font></b>
 										<span class="caret"></span></button>
 										<ul class="dropdown-menu">
-											<li><a href="PerfilUsuario.html"><center>Mi Perfil</center></a></li>
-											<li><a href="index.html"><center>Salir</center></a></li>								
+											<li><a href="PerfilUsuario.html" accesskey="M"><center>Mi Perfil</center></a></li>
+											<li><a href="index.html" accesskey="S"><center>Salir</center></a></li>								
 										</ul>
 										</div>
 								</div>
@@ -85,16 +85,155 @@
 					</button>
 				</div>
 				<div class="collapse navbar-collapse" style="background:#8ec536;" >
-				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">
-			  		<li role="presentation" ><a color="inherit" href="index.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Inicio</h8></font></b></a></li>
-			 		<li role="presentation"><a href="ListaProductosIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
-			  		<li role="presentation"><a href="HardwareIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
-			  		<li role="presentation"><a href="VideosIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Videos</h8></font></b></a></li>
-			  		<li role="presentation"><a href="NoticiasIN.html" style="text-decoration: none; border:0px"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
+				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">	
+			  		<li role="presentation" ><a color="inherit" href="indexIN.html" accesskey="I" style="text-decoration: none; border:0px"><b><font color="white"><h8>Inicio</h8></font></b></a></li>
+			 		<li role="presentation"><a href="ListaProductosIN.html" accesskey="J" style="text-decoration: none; border:0px"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="HardwareIN.html" accesskey="H" style="text-decoration: none; border:0px"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
+			  		<li role="presentation"><a href="VideosIN.html" accesskey="V" style="text-decoration: none; border:0px"><b><font color="white"><h8>Videos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="NoticiasIN.html" accesskey="N" style="text-decoration: none; border:0px"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
 				</ul>
 				</div>
 			</div>
 		</header>
+		
+		<br><br>
+		<div class="container" style="border:3px solid black; border-radius: 15px; background:#f7f7f7;">
+		
+		<div class="row">
+	
+        <div class="col-sm-2 col-md-10 col-md-offset-1">
+		
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th class="text-center">Precio</th>
+                        <th class="text-center">Total</th><br><br>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="col-sm-6 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="ProductoDoomIN.html"> <img class="media-object" src="img/cart1.jpg"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="ProductoDoomIN.html">Doom</a></h4>
+                                
+                                <span>Estado: </span><span class="text-success"><strong>Disponible</strong></span>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$55</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$60</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                        <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remover
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="ProductoFallIN.html"> <img class="media-object" src="img/cart2.jpg"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="ProductoFallIN.html">Fallout 4</a></h4>
+                             
+                                <span>Status: </span><span class="text-danger"><strong>No Disponible</strong></span>
+                            </div>
+                        </div></td>
+                        <td class="col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" id="exampleInputEmail1" value="6">
+                        </td>
+                        <td class="col-md-1 text-center"><strong>$300</strong></td>
+                        <td class="col-md-1 text-center"><strong>$330</strong></td>
+                        <td class="col-md-1">
+                        <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remover
+                        </button></td>
+                    </tr>
+					  <tr>
+                        <td class="col-sm-6 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="ProductoBattleIN.html"> <img class="media-object" src="img/cart3.jpg"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="ProductoBattleIN.html">Battlerite</a></h4>
+                                
+                                <span>Estado: </span><span class="text-success"><strong>Disponible</strong></span>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" id="exampleInputEmail1" value="1">
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$15</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$20</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                        <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remover
+                        </button></td>
+                    </tr>
+					  <tr>
+                        <td class="col-sm-6 col-md-6">
+                        <div class="media">
+                            <a class="thumbnail pull-left" href="ProductoCiviIN.html"> <img class="media-object" src="img/cart4.jpg"> </a>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="ProductoCiviIN.html">Civilization VI</a></h4>
+                                
+                                <span>Estado: </span><span class="text-success"><strong>Disponible</strong></span>
+                            </div>
+                        </div></td>
+                        <td class="col-sm-1 col-md-1" style="text-align: center">
+                        <input type="email" class="form-control" id="exampleInputEmail1" value="3">
+                        </td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$55</strong></td>
+                        <td class="col-sm-1 col-md-1 text-center"><strong>$60</strong></td>
+                        <td class="col-sm-1 col-md-1">
+                        <button type="button" class="btn btn-danger">
+                            <span class="glyphicon glyphicon-remove"></span> Remover
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h5>Subtotal</h5></td>
+                        <td class="text-right"><h5><strong>$140</strong></h5></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h5>Envio Estimado</h5></td>
+                        <td class="text-right"><h5><strong>$0.00</strong></h5></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td><h3>Total</h3></td>
+                        <td class="text-right"><h3><strong>$140</strong></h3></td>
+                    </tr>
+                    <tr>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>   </td>
+                        <td>
+                        <button type="button" class="btn btn-default" onclick="location.href='IndexIN.html'">
+                            <span class="glyphicon glyphicon-shopping-cart" ></span> Continuar Comprando
+                        </button></td>
+                        <td>
+                        <button type="button" class="btn bootn-i">
+                            <h7><b>Pagar</b></h7> <span class="glyphicon glyphicon-play"></span>
+                        </button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+		
 		
 		<div class="container" >			
 			<div class="main row">
@@ -106,66 +245,11 @@
 				</div>
 			
 				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
-					
 
-				<!--Contenido 1-->
-				
-				
-					<div class="row">
-						<div class="container">
-							<div class="page-header">
-							  <h4><font size="5"><b>Carrito de Compras</b></font></h4>
-							</div>
-						</div>
-					</div>
+					<br><br>
+					
 					
 					<div class="row">
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail" style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T1.jpg"><font color="white"><center><b><h7>60$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" >
-					    	<a href="#" class="thumbnail" style="background:#8ec536; border-color:#5c8023;">
-					      		<img src="img/T2.jpg"><font color="white"><center><b><h7>20$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T3.jpg"><font color="white"><center><b><h7>20$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="#" class="thumbnail"style="background:#8ec536;border-color:#5c8023;">
-					      		<img src="img/T4.jpg"><font color="white"><center><b><h7>60$</h7></b></center></font><button type="button" class="btn btn-default">
-									  			<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
-											</button>
-					    	</a>
-					  	</div>
-						
-						</div>	
-						
-					<h2 class="col-xs-12"><b>Total : 160$<b></h2>
-					<div class="bootn-i bootn ff-shadows"><h7>Comprar</h7></div>
-					
-					<div class="row">
-						<div class="container">
-							<div class="page-header">
-							  
-							</div>
-						</div>
-					</div>
-					
-						<div class="row">
 						<div class="container">
 							<div class="page-header"><h2> Recomendados<h2>
 							  
@@ -175,7 +259,7 @@
 					
 					<div class="row">
 						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="ProductoRocket.html" class="thumbnail"style="background:#5c8023;">
+					    	<a href="ProductoRocketIN.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T5.jpg">
 					      		<div class="caption" style="background:#8ec536;">
 							        <h3><font color="white"><center><b><h7>60$</h7></b><center></font></h3>
@@ -183,7 +267,7 @@
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="ProductoBattle.html" class="thumbnail"style="background:#5c8023;">
+					    	<a href="ProductoFallIN.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T6.jpg">
 					      		<div class="caption" style="background:#8ec536;">
 							        <h3><font color="white"><center><b><h7>20$</h7></b><center></font></h3>
@@ -191,7 +275,7 @@
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="ProductoEstela.html" class="thumbnail"style="background:#5c8023;">
+					    	<a href="ProductoCiviIN.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T7.jpg">
 					      		<div class="caption"style="background:#8ec536;">
 							        <h3><font color="white"><center><b><h7>20$</h7></b><center></font></h3>
@@ -199,7 +283,7 @@
 					    	</a>
 					  	</div>
 					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
-					    	<a href="ProductoWitcher.html" class="thumbnail"style="background:#5c8023;">
+					    	<a href="ProductoFarmIN.html" class="thumbnail"style="background:#5c8023;">
 					      		<img src="img/T8.jpg">
 					      		<div class="caption"style="background:#8ec536;">
 							        <h3><font color="white"><center><b><h7>1000$</h7></b><center></font></h3>

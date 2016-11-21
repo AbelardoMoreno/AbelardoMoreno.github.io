@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link href="img/favicon1.ico" rel="icon" type="image/x-icon" />
+		<meta charset="UTF-8">
+		<title>MundoJuegos</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	  	<link rel="stylesheet" href="css/bootstrap.min.css">
+	  	<script src="js/jquery-1.9.1.min.js"></script>
+	  	<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css" title="default">
+		<link rel="alternate stylesheet" type="text/css" href="accesibilidad.css" title="accesibilidad"> 
+	</head>
+	
+	<body>
+		<header>
+		<br>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-10 col-sm-4 col-md-3 col-lg-3">
+						<a href="indexIN.html"><img src="img/logo.png" class="img-responsive logo" alt="Responsive image"></a>
+					</div>
+
+					<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+						<div class="contenedor">
+							<div class="row">
+								<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+									<div class="dropdown">
+									    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad">Plataforma
+									    <span class="caret"></span></button>
+									    <ul class="dropdown-menu">
+												<li><a href="ListaProductos.html"><center>PC</center></a></li>
+												<li><a href="ListaProductos.html"><center>Xbox</center></a></li>
+												<li><a href="ListaProductos.html"><center>Playstation</center></a></li>
+												<li><a href="ListaProductos.html"><center>Nintendo</center></a></li>
+												<li><a href="ListaProductos.html"><center>Sega</center></a></li>
+									    </ul>
+									</div>
+								</div>
+
+								<div class="col-xs-12 col-sm-4 col-md-3 col-lg-4">
+									<div class="input-group">
+								    	<input type="text" class="form-control" placeholder="Buscar">
+								     	<span class="input-group-btn">
+								       		<button type="button" class="btn btn-default " onclick="location.href='ListaProductos.html'">
+									  			<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+											</button>
+								      	</span>
+								    </div>
+								</div>
+
+								<div class="hidden-xs col-sm-2 col-md-2 col-lg-2">
+				                    <button style="background:white;" type="button" class="btn" id="shoppingCartHeader" onclick="location.href='CarritoCompras.html'">
+				                        <span class="glyphicon glyphicon-shopping-cart"></span><span>(4)</span>
+				                    </button>
+								</div>
+
+								<div class="col-xs-12 hidden-sm hidden-md hidden-lg text-center text-to-bold">
+									<a href="CarritoCompras.html" role="presentation"><b>Mi carrito</b></a>
+								</div>		
+								
+								<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+										<div class="dropdown">
+										<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" name="boton_ciudad"><b><font color="white"><img src="img/usuario2.png"style="width:35px;height:20px;"> </font></b>
+										<span class="caret"></span></button>
+										<ul class="dropdown-menu">
+											<li><a href="PerfilUsuario.html" accesskey="M"><center>Mi Perfil</center></a></li>
+											<li><a href="Hardware.html" accesskey="S"><center>Salir</center></a></li>								
+										</ul>
+										</div>
+								</div>
+								
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div >	
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle mobile-menu" data-toggle="collapse" data-target=".navbar-collapse" style="height:auto; width:auto;"">
+						<img src="img/menu-mobile.png">
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" style="background:#8ec536;" >
+				<ul class="nav nav-tabs nav-justified" style="background:#8ec536;">
+			  		<li role="presentation" ><a color="inherit" href="indexIN.html" accesskey="I" style="text-decoration: none; border:0px"><b><font color="white"><h8>Inicio</h8></font></b></a></li>
+			 		<li role="presentation"><a href="ListaProductosIN.html" accesskey="J" style="text-decoration: none; border:0px"><b><font color="white"><h8>Juegos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="HardwareIN.html" accesskey="H" style="text-decoration: none; border:0px"><b><font color="white"><h8>Hardware</h8></font></b></a></li>
+			  		<li role="presentation"><a href="VideosIN.html" accesskey="V" style="text-decoration: none; border:0px"><b><font color="white"><h8>Videos</h8></font></b></a></li>
+			  		<li role="presentation"><a href="NoticiasIN.html" accesskey="N" style="text-decoration: none; border:0px"><b><font color="white"><h8>Noticias</h8></font></b></a></li>
+			 		
+				</ul>
+				</div>
+			</div>
+		</header>
+		
+<div class="container" >
+		
+		
+			<div class="main row">
+				<div class="hidden-xs hidden-sm hidden-md col-lg-2">
+					<ul class="nav nav-pills nav-stacked navbar-static-top" role="tablist" id="navbar-sidebar"><h2><b>Hardware</b></h2>
+				  		<li role="presentation"></br><h4><b>Compañia</b></h4></li>
+					  		<input type="checkbox"><small>Nintendo</small></br>
+							<input type="checkbox"><small>Sony</small></br>
+							<input type="checkbox"><small>Microsoft</small></br>
+							<input type="checkbox"><small>Steam</small></br>
+							<input type="checkbox"><small>Sega</small></br>
+							<input type="checkbox"><small>Atari</small></br>
+					  		
+
+				 		<li role="presentation"></br><h4><b>Rango de precio</b></h4></li>
+				 			<input type="checkbox"><small>Menos de 20$</small></br>
+							<input type="checkbox"><small>Entre 20$ y 100$</small></br>
+							<input type="checkbox"><small>Entre 100$ y 200$</small></br>
+							<input type="checkbox"><small>Más de 200$</small></br>
+						
+						<li role="presentation"></br><h4><b>Tipo</b></h4></li>
+				 			<input type="checkbox"><small>Consolas</small></br>
+							<input type="checkbox"><small>Controles</small></br>
+							<input type="checkbox"><small>Headsets</small></br>
+							<input type="checkbox"><small>Accesorios</small></br>						
+
+				  		<li role="presentation"></br><h4><b>Calidad</b></h4></li>
+				 			<input type="checkbox"><small>Nuevo</small></br>
+							<input type="checkbox"><small>Usado</small></br>
+						
+							
+					</ul>
+				</div>
+			
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-10">
+					
+
+				<!--Contenido 1-->
+					<div class="row">
+						<div class="container">
+							<div class="page-header">
+							  <h4><small><a href="#"> </a></small></h4>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW1.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>250$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW2.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>350$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					  <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW3.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>300$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW4.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>200$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					</div>
+
+					<div class="row">
+						<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW5.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>35$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					  	<div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
+					    	<a href="Construccion.html" class="thumbnail" style="background:#5c8023;">
+					      		<img src="img/HW6.jpg">
+					      		<div class="caption" style="background:#8ec536;">
+							        <h7><h3><font color="white"><center><b>20$</b><center></font></h3></h7>
+							   </div>
+					    	</a>
+					  	</div>
+					 
+					  	
+					</div>
+
+				</div>
+			</div>
+
+
+		
+			<br><br><br><br><br>
+			</div>
+		
+		<center><div class="row" style="background-color:#222324;">
+				<div class="hidden-xs hidden-sm col-md-3">
+					<div class="page-header">
+						<h4><b><font color="white">MundoJuegos</font></b></h4>
+					</div>
+					<ul>					
+						<li><a href="#"><p><b><font color="white">Contáctanos</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Como comprar</font></b></p></a></li>
+						
+					</ul>
+					
+				</div>
+				<div class="hidden-xs col-sm-4 col-md-3">
+					<div class="page-header">
+							<h4><b><font color="white">Servicio al Cliente</font></b></h4>
+					</div>
+					<ul>
+						<li><a href="http://www.e-encuesta.com/answer?testId=eXk5Wir84lo%3D"><p><b><font color="white">Preguntas Frecuentes</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Políticas de devoluciones</font></b></p></a></li>
+						<li><a href="#"><p><b><font color="white">Términos de uso</font></b></p></a></li>
+					</ul>
+					
+				</div>
+
+				<div class="col-xs-6 col-sm-4 col-md-3">
+					<div class="page-header">
+						<h4><b><font color="white">Redes Sociales</font></b></h4>
+					</div>
+					<div class="row">
+					
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					      		<a href="https://www.facebook.com"><img src="img/fb.png" style="width:50px;height:50px;"></a>
+					  	</div>
+						
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					      		<a href="https://twitter.com/"><img src="img/tw.png" style="width:50px;height:50px;"></a>
+					  	</div>	
+						
+						<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					      		<a href="https://instagram.com"><img src="img/ins.png" style="width:50px;height:50px;"></a>
+					  	</div>
+						
+				  	
+					</div>
+				</div>
+				
+				<div class="col-xs-6 col-sm-4 col-md-3">
+					<div class="page-header">
+						<h4><b><font color="white">Copyright</font></b></h4>
+					</div>
+					
+					<small><b><font color="white">MundoJuegos.ga © Copyright 2016 Todos los derechos reservados.</font></b></small>
+				</div>
+
+				
+			</div></center>
+
+	
+
+		
+	
+
+	</body>
+</html>
