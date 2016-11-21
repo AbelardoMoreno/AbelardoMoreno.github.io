@@ -1,0 +1,327 @@
+img {
+	width: 100%;
+    height: auto;
+	
+}
+
+button {
+     width: 100%;
+     height: auto;
+}
+
+
+.contenedor{
+
+	padding-top: 2em;
+}
+
+.caption{
+	color: #94d3d4;
+	background-color:#94d3d4;
+	height:55px;
+}
+
+
+
+#navbar-sidebar li{
+	margin-top:-1em;
+	padding: 0;
+	
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+body{
+
+  background: black; /* For browsers that do not support gradients */
+
+   background: -webkit-radial-gradient(circle, gray, gray,  black); /* Safari */
+  background: -o-radial-gradient(circle, gray, gray,  black); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, gray, gray,  black); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, gray, gray,  black); /* Standard syntax */
+
+
+	margin: 0;
+	padding: 0;
+	
+	font-family: Montserrat, sans-serif;
+}
+
+.fs-small{
+	font-size: 18px; 
+}
+
+.fs-med{
+	font-size: 24px; 
+}
+
+.fs-big{
+	font-size: 32px; 
+}
+
+.ff-shadows{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ff-sans{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.fc-dark-blue{
+	color: #013666;
+}
+
+.fc-blue{
+	color: #005d84;
+}
+
+.fc-green{
+	color: #008332;
+}
+
+.fc-white{
+	color: #ffffff;
+}
+
+.fc-yellow{
+	color:#fcd93c;
+}
+
+.fc-grey{
+	color: #dfdfdf;
+}
+
+.fc-dark-grey{
+	color: #1c1c1b;
+}
+
+.bc-green{
+	background-color: #8ec536;
+}
+
+.bc-blanco{
+	background-color: #ffffff;
+}
+
+.bc-azulito{
+	background-color: #94d3d4;
+}
+
+.bc-grey{
+	background-color: #636466;
+}
+
+.bc-PAPA{
+	background-color: #2d2d2e;
+}
+
+nav ul li:hover{
+	background-color: #8ec536;
+}
+
+nav ul li a:hover{
+	color: #8dbfc2;
+}
+
+.campo-texto-i {
+    border: 0px; 
+	background-color: #F2F2F2; 
+    height:30px; 
+    width: 275px; 
+	margin-top: 1%; 
+	
+}
+
+.bootn{
+  /* generado con: http://css3buttongenerator.com/ */
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+   /* generado con: http://css3buttongenerator.com/ */
+   margin: 0 2% 0 2%;
+   float: left; 
+   cursor: pointer;
+}
+
+.bootn-iii {
+	background: #636466;
+	
+}
+
+.bootn-iii:hover {
+  	background: #555758;
+}
+
+.bootn:hover {
+  text-decoration: none;
+}
+
+.bootn-i {
+	background: #8ec536;
+}
+
+.bootn-i:hover {
+  	background: #7cac30;
+  
+}
+
+.bootn-ii {
+	background: #94d3d4;
+}
+
+.bootn-ii:hover {
+  	background: #8dbfc2;
+}
+
+  #contenedor-secundario{
+	width: auto;
+	height: 1000px;
+	margin-top: 325px;
+ }
+
+ #barra-lateral{
+	width: 20%;
+	float: right;
+
+	height: 300px;
+	margin-top:11px;
+ }
+ 
+ textarea {
+   resize: none;
+}
+
+
+ul.nav > li > a:hover {
+	background-color: #7cac30;
+	
+	border: 0px;
+}
+.mundo-logo{
+	height: inherit;
+}
+
+header{
+
+	
+}
+
+h7 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+	
+}
+
+h8 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h9 {
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+	position: absolute; 
+	left:80px;
+	top:80px;
+}	
+
+textarea {
+    width:  inherit;
+    height: 150px;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+
+/*
+    Note: It is best to use a less version of this file ( see http://css2less.cc
+    For the media queries use @screen-sm-min instead of 768px.
+    For .omb_spanOr use @body-bg instead of white.
+*/
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+    text-align: center;
+	line-height: 300%;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; // In yourUse @body-bg 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-facebook:hover {background: #314b82;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-twitter:hover {background: #0095cd;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+.omb_login .omb_socialButtons .omb_btn-google:hover {background: #a8280d;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: #aaa;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	background-color: #cdcdcd;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	background-color: white;
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
